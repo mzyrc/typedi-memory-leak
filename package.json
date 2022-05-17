@@ -1,0 +1,32 @@
+{
+  "name": "typedi-memory-leak",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "scripts": {
+    "start": "node --inspect dist/index.js",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mzyrc/typedi-memory-leak.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mzyrc/typedi-memory-leak/issues"
+  },
+  "homepage": "https://github.com/mzyrc/typedi-memory-leak#readme",
+  "dependencies": {
+    "reflect-metadata": "^0.1.13",
+    "ts-node": "^10.7.0",
+    "typedi": "^0.10.0",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "@types/uuid": "^8.3.4",
+    "nodemon": "^2.0.16",
+    "typescript": "^4.6.4"
+  }
+}
